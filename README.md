@@ -17,7 +17,7 @@ Download LibreHardwareMonitor and extract it anywhere on your computer. Run Libr
 
 Make sure Python is installed on your system. Then install the required libraries by running:
 
-pip install pyserial requests
+py -m pip install requests pyserial
 
 These libraries allow the script to read hardware data and communicate with the Cardputer through the serial port.
 
