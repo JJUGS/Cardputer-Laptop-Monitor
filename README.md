@@ -18,17 +18,16 @@ Download LibreHardwareMonitor and extract it anywhere on your computer. Run Libr
 Make sure Python is installed on your system. Then install the required libraries by running:
 
 py -m pip install requests pyserial
+
 py -m pip install psutil
 
 These libraries allow the script to read hardware data and communicate with the Cardputer through the serial port.
 
 3. Connect the Cardputer
 
-Flash the Cardputer monitor firmware to your device and connect the Cardputer to your computer using USB. Identify the correct COM port (for example COM5) in your system’s device manager.
+Flash the Cardputer monitor firmware to your device and connect the Cardputer to your computer using USB.
 
 4. Run the Monitor Script
-
-Open monitor.py and set the correct COM port if needed. Then run the script:
 
 python monitor.py
 
